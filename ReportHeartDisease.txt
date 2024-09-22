@@ -1,0 +1,59 @@
+					HEART DISEASE ANALYSIS
+
+Dataset Overview
+
+
+The dataset contains information about patients with various health conditions. The dataset has a total of [insert number] rows and [insert number] columns.
+
+
+Variables Description
+
+
+1. sex: Categorical variable indicating the patient's sex (0 - Female, 1 - Male)
+2. age: Continuous variable representing the patient's age
+3. anaemia: Binary variable indicating whether the patient has anaemia (0 - No, 1 - Yes)
+4. diabetes: Binary variable indicating whether the patient has diabetes (0 - No, 1 - Yes)
+5. high_blood_pressure: Binary variable indicating whether the patient has high blood pressure (0 - No, 1 - Yes)
+6. smoking: Binary variable indicating whether the patient smokes (0 - No, 1 - Yes)
+7. DEATH_EVENT: Binary variable indicating whether the patient experienced a death event (0 - No, 1 - Yes)
+
+
+Data Cleaning and Preprocessing
+
+
+- The dataset was checked for null values, and any missing values were replaced with the mean of the respective column.
+- The 'time' column was removed as it was deemed unnecessary.
+
+
+Descriptive Statistics
+
+
+- Gender Distribution: [insert percentage]% female, [insert percentage]% male
+- Death Event Distribution: [insert percentage]% no death event, [insert percentage]% death event
+- High Blood Pressure Distribution: [insert percentage]% no high blood pressure, [insert percentage]% high blood pressure
+- Diabetes Distribution: [insert percentage]% no diabetes, [insert percentage]% diabetes
+- Smoking Distribution: [insert percentage]% non-smoker, [insert percentage]% smoker
+
+
+Visualizations and Insights
+
+
+1. Pairplot: The pairplot reveals relationships between variables, particularly between age and death event.
+2. Sex Distribution Bar Plot: The bar plot shows an equal distribution of males and females.
+3. Death Event Distribution Bar Plot: The bar plot indicates a higher number of patients without death events.
+4. Death Event per Sex Bar Plot: The bar plot shows a higher death event rate among males.
+5. Sex vs Death Event Heatmap: The heatmap confirms a higher death event rate among males.
+6. Smoking vs Death Event Bar Plot: The bar plot indicates a higher death event rate among smokers.
+7. High Blood Pressure vs Age Box Plot: The box plot reveals a positive correlation between age and high blood pressure.
+
+
+Conclusion
+
+
+The analysis provides valuable insights into the relationships between various health conditions and demographic factors. The findings suggest that:
+
+
+- Males have a higher death event rate.
+- Smokers have a higher death event rate.
+- High blood pressure increases with age.
+- Diabetes and anaemia are significant health concerns.
